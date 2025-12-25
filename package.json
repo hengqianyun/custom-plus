@@ -1,0 +1,13 @@
+{
+  "name": "custom-plus",
+  "version": "1.0.0",
+  "description": "custom plus 组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hengqianyun",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0"
+}
