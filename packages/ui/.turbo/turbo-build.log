@@ -1,0 +1,20 @@
+
+> ui@0.0.0 build C:\WorkSpace\git\custom-plus\packages\ui
+> vue-tsc -b && vite build
+
+[33mYou are using Node.js 20.16.0. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.[39m
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 8 modules transformed.
+rendering chunks...
+
+[vite:dts] Start generate declaration files...
+computing gzip size...
+[vite:dts] Declaration files built in 725ms.
+
+[2mdist/[22m[35mui.css                [39m[1m[2m4.21 kB[22m[1m[22m[2m │ gzip: 1.02 kB[22m
+[2mdist/[22m[36mcustom-plus-ui.es.js  [39m[1m[2m0.86 kB[22m[1m[22m[2m │ gzip: 0.50 kB[22m
+[33mEntry module "main.ts" is using named and default exports together. Consumers of your bundle will have to use `custom-plus-ui.default` to access the default export, which may not be what you want. Use `output.exports: "named"` to disable this warning.[39m
+[2mdist/[22m[35mui.css                 [39m[1m[2m4.21 kB[22m[1m[22m[2m │ gzip: 1.02 kB[22m
+[2mdist/[22m[36mcustom-plus-ui.umd.js  [39m[1m[2m0.88 kB[22m[1m[22m[2m │ gzip: 0.57 kB[22m
+[32m✓ built in 955ms[39m

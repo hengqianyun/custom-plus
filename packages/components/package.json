@@ -1,7 +1,8 @@
 {
-  "name": "custom-plus",
+  "name": "@custom-plus/components",
   "version": "1.0.0",
-  "description": "custom plus 组件库",
+  "description": "custom plus components",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +10,7 @@
   "author": "hengqianyun",
   "license": "ISC",
   "packageManager": "pnpm@10.8.0",
-  "devDependencies": {
-    "turbo": "^2.7.2"
+  "dependencies": {
+    "vue": "^3.5.26"
   }
 }
