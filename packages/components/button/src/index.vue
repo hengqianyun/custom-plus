@@ -5,9 +5,9 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import { ElButton } from 'element-plus';
 import type { ButtonType } from 'element-plus';
+import { ElButton } from 'element-plus';
+import { ref } from 'vue';
 
 interface Props {
   type: ButtonType
