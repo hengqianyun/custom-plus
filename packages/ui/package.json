@@ -1,8 +1,22 @@
 {
-  "name": "ui",
+  "name": "custom-plus",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "main": "./dist/ui.umd.js",
+  "module": "./dist/ui.es.js",
+  "types": "./dist/ui.es.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/ui.es.d.ts",
+      "import": "./dist/ui.es.js",
+      "require": "./dist/ui.umd.js"
+    },
+    "./dist/main.css": "./dist/main.css"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",

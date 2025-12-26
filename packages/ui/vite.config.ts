@@ -8,17 +8,21 @@ export default defineConfig({
   build: {
     lib: {
       entry: './main.ts',
-      name: 'custom-plus-ui',
-      fileName: (format) => `custom-plus-ui.${format}.js`
+      name: 'ui',
+      fileName: (format) => `ui.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],
-      output: {
-        globals: {
-          vue: 'Vue'
-        }
-      },
-    }
+    },
+    cssCodeSplit: true,
   },
-  plugins: [vue(), UnoCSS(), dts()],
+  plugins: [
+    vue(), 
+    UnoCSS(), 
+    dts({
+      outDir: 'dist',
+      rollupTypes: false,
+      copyDtsFiles: true
+    })
+  ],
 })
