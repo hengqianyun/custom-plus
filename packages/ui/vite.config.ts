@@ -12,7 +12,7 @@ export default defineConfig({
       fileName: (format) => `ui.${format}.js`
     },
     rollupOptions: {
-      external: ['vue'],
+      external: ['vue', 'element-plus'],
     },
     cssCodeSplit: true,
   },

@@ -6,11 +6,18 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
+    "build:watch": {
+      "cache": false,
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"],
+      "persistent": true
+    },
     "lint": {
       "dependsOn": ["build"]
     },
     "dev": {
-      "dependsOn": ["lint"]
+      "dependsOn": ["lint"],
+      "persistent": true
     }
   }
 }

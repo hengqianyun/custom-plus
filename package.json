@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "custom plus 组件库",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo run dev",
+    "dev:watch": "turbo run build:watch --parallel",
+    "build": "turbo run build"
   },
   "keywords": [],
   "author": "hengqianyun",
