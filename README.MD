@@ -12,3 +12,7 @@ pnpm turbo build
 ```
 pnpm -F docs  docs:dev
 ```
+热更新启动
+```
+pnpm dev:watch
+```
