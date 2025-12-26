@@ -12,7 +12,8 @@
       "import": "./dist/ui.es.js",
       "require": "./dist/ui.umd.js"
     },
-    "./dist/main.css": "./dist/main.css"
+    "./dist/main.css": "./dist/main.css",
+    "./styles/button.css": "./dist/main.css"
   },
   "files": [
     "dist"
